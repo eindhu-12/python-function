@@ -1,4 +1,16 @@
+# -----------------------------fibonacci --------------------
+print("fibonacci")
+def fib(m):
+    if( m==0 or m==1):
+        return m
+    return (fib(m-1)+fib(m-2))
+
+print(fib(6))
+print()
+
+
 # -----------------------------factorial--------------------
+print("factorial")
 def fact(n):
     if(n==0 or n==1):
         return n
